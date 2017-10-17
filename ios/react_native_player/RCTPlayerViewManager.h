@@ -6,7 +6,8 @@
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 
-#import "RCTViewManager.h"
+#import <React/RCTViewManager.h>
+#import <UIKit/UIKit.h>
 
 @interface RCTPlayerViewManager : RCTViewManager
 
