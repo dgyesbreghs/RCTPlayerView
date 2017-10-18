@@ -10,4 +10,7 @@
 
 @interface RCTPlayerView : UIView
 
+- (void)play;
+- (void)pause;
+
 @end

@@ -10,6 +10,8 @@
 
 #import <AVFoundation/AVFoundation.h>
 
+#import <React/RCTConvert.h>
+
 @interface RCTPlayerView()
 
 @property (nonatomic, strong) NSString *source;
@@ -52,6 +54,16 @@
     [self.layer addSublayer:self.playerLayer];
     
     [self.player play];
+}
+
+- (void)play
+{
+    [self.player play];
+}
+
+- (void)pause
+{
+    [self.player pause];
 }
 
 @end

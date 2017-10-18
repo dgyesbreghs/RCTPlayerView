@@ -18,6 +18,7 @@
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		480AD7181F97C3D00069220B /* RCTPlayerViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 480AD7171F97C3D00069220B /* RCTPlayerViewBridge.m */; };
 		48B2DF881F966AA8003D5AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B2DF7F1F966AA7003D5AA5 /* AppDelegate.m */; };
 		48B2DF8A1F966AA8003D5AA5 /* RCTPlayerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B2DF821F966AA7003D5AA5 /* RCTPlayerViewManager.m */; };
 		48B2DF941F966ACE003D5AA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48B2DF8F1F966ACD003D5AA5 /* LaunchScreen.xib */; };
@@ -285,6 +286,8 @@
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* react_native_player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react_native_player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		480AD7161F97C3D00069220B /* RCTPlayerViewBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPlayerViewBridge.h; sourceTree = "<group>"; };
+		480AD7171F97C3D00069220B /* RCTPlayerViewBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPlayerViewBridge.m; sourceTree = "<group>"; };
 		48B2DF7E1F966AA7003D5AA5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48B2DF7F1F966AA7003D5AA5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48B2DF811F966AA7003D5AA5 /* RCTPlayerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTPlayerViewManager.h; sourceTree = "<group>"; };
@@ -420,6 +423,8 @@
 				48B2DF7F1F966AA7003D5AA5 /* AppDelegate.m */,
 				48B2DF981F966C91003D5AA5 /* RCTPlayerView.h */,
 				48B2DF991F966C91003D5AA5 /* RCTPlayerView.m */,
+				480AD7161F97C3D00069220B /* RCTPlayerViewBridge.h */,
+				480AD7171F97C3D00069220B /* RCTPlayerViewBridge.m */,
 				48B2DF811F966AA7003D5AA5 /* RCTPlayerViewManager.h */,
 				48B2DF821F966AA7003D5AA5 /* RCTPlayerViewManager.m */,
 				48B2DF8E1F966ACD003D5AA5 /* Supporting Files */,
@@ -942,6 +947,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B2DF881F966AA8003D5AA5 /* AppDelegate.m in Sources */,
+				480AD7181F97C3D00069220B /* RCTPlayerViewBridge.m in Sources */,
 				48B2DF951F966ACE003D5AA5 /* main.m in Sources */,
 				48B2DF8A1F966AA8003D5AA5 /* RCTPlayerViewManager.m in Sources */,
 				48B2DF9A1F966C91003D5AA5 /* RCTPlayerView.m in Sources */,
